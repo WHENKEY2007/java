@@ -14,6 +14,7 @@ System.out.println("Name: "+name);
 System.out.println("Gender: "+gender);
 System.out.println("Section: "+sec);
 System.out.printf("cgpa:"+cgpa);
+sc.close();
 }     
  
 }
