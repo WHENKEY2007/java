@@ -28,7 +28,6 @@ class Student{
         s1.canread();
         s1.canwrite();
     }
-
 }
 
 

@@ -7,7 +7,7 @@ class Bank {
     void deposit(int dp) {
         bal += dp;
         System.out.println("Deposited: " + dp);
-    }
+    }   
     void withdraw(int wd) {
         if (wd <= bal) {
             bal -= wd;
@@ -16,7 +16,7 @@ class Bank {
             System.out.println("Insufficient balance");
         }
     }
-    void display() {
+    void display() { 
         System.out.println("Account Number: " + acc_no);
         System.out.println("Account Holder Name: " + acc_honame);
         System.out.println("Balance: " + bal);
