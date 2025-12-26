@@ -16,7 +16,7 @@ public class ConstructorExample1{
     ConstructorExample1(int a,String s,int b){
         id=a;
         name=s;
-        age=b;
+        age=b;  
     }
     void display(){
         System.out.println("id:"+id+" "+"Name:"+name+" "+"Age:"+age);
